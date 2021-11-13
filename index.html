@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CONSUMA LEGAL</title>
+  <link rel="shortcut icon" href="./src/img/derecho.jpg" type="image/x-icon" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./fontello.css">
+</head>
+
+<body>
+  <!-- inicio de mi navbar -->
+  <section><nav class="navbar navbar-expand-md navbar navbar-light" style="background-color: #ffffff;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./src/img/consumalegal.png" class="img-fluid" width="150px" height="150px" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a target="_blank" class="nav-link active" href="http://www.secretariasenado.gov.co/senado/basedoc/ley_1480_2011.html">LEY 1480</a> <p> 
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              CONOCENOS
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a target="_blank" class="dropdown-item" href="https://consumalegal.com/quienes-somos/">Equipo de trabajo</a></li>
+              <li><a target="_blank" class="dropdown-item" href="https://www.facebook.com/consumalegal/">Facebook</a></li>
+              <li><a target="_blank" class="dropdown-item" href="https://twitter.com/ConsumaLegal?s=08">Twitter</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Contactanos</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active">¡Su causa es nuestra causa!</a>
+          </li>
+        </ul>
+        <section>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" id="boton" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Asesorias
+          </button>
+          
+          <!-- Modal -->
+          <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <form enctype="text/plain" action="mailto:lizetsthefani@gmail.com" method="get">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Comunicate con nosotros</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <section class="d-flex justify-content-center">
+                    < <div class="card col-sm-9 p-0">
+                      <div class="mb-1">
+                        <h4>Contacto</h4>
+                      </div>
+                    <div class="mb-2">
+                      <form action="">
+                        <div class="mb-2">
+                          <label for="nombre">Nombre</label>
+                          <input type="text" class="form-control" name="nombre" id="nombre" placeholder="ej: Andrea">
+                        </div>
+                        <div class="mb-2">
+                          <label for="numero">Numero Telefonico</label>
+                          <input type="text" class="form-control" name="numero" id="numero" placeholder="ej: 312672...">
+                        </div>
+                        <div class="mb-2">
+                          <label for="correo">Correo Electronico</label>
+                          <input type="text" class="form-control" name="correo" id="correo" placeholder="ej: andreitasolomilloz@mail.com">
+                        </div>
+                        <div class="mb-2">
+                          <label for="mensaje">Cuentanos tu caso</label>
+                          <textarea name="mensaje" id="mensaje" class="form-control" placeholder="ej: El producto presento fallas..."></textarea>
+                        </div>
+                        <div class="mb-2">
+
+                          <button class="btn btn-primary" type="submit">Enviar</button>
+                        </div>
+                </div>
+              </div>
+            </div>
+            
+          </div></section></div>
+      </div>
+    </div>
+  </nav></section>
+  <!-- fin de mi navbar -->
+
+  <!-- inicio de mi slider -->
+  <section> <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">  
+      <div class="carousel-item active">
+        <img src="./src/img/imagen1.jpg" width="400px" height="400px"
+        class="d-block w-100" alt="imagen1">
+      </div>
+      <div class="carousel-item">
+        <img src="./src/img/imagen2.jpg" width="400px" height="400px"
+        class="d-block w-100" alt="imagen2">
+      </div>
+      <div class="carousel-item">
+        <img src="./src/img/derecho.jpg" width="400px" height="400px"
+        class="d-block w-100" alt="Derecho">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div></section>
+  <!-- fin de mi slider -->
+
+<a href="https://api.whatsapp.com/send?phone=+573133599534" class="btn-wsp" target="_blank">
+  <i class="icon-whatsapp"></i>
+</a>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrsap@5.1.2/dist/js/bootstrap.min.js" integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u" crossorigin="anonymous"></script>
+ <script src="js/config.js"></script>   
+</body>
+</html>
